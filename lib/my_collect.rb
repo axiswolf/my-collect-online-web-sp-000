@@ -6,5 +6,6 @@ def my_collect(names)
       i += 1
     end
   names
-else names.split[i]
+  else names.split[i]
+  end
 end
