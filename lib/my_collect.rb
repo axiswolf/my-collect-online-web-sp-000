@@ -1,7 +1,7 @@
 def my_collect(names)
     i = 0
     while i < names.length
-      names.uppercase[i]
+      names[i]
       i += 1
     end
     names
