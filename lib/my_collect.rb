@@ -1,8 +1,10 @@
 def my_collect(names)
-  i = 0
-  while i < names.length
-    names[i]
-    i += 1
-  end
+  if names == languages
+    i = 0
+    while i < names.length
+      names.uppercase[i]
+      i += 1
+    end
   names
+else names.split[i]
 end
