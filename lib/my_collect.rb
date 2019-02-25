@@ -1,8 +1,9 @@
 def my_collect(names)
     i = 0
+    new_names = []
     while i < names.length
-      names[i]
+      new_names << yield(names[i])
       i += 1
     end
-    names
+    new_names
 end
